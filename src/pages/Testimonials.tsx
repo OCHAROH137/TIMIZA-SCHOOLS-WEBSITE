@@ -15,7 +15,7 @@ import parent1 from "@/assets/testimonials/mary-wambui.jpg";
 
 const testimonials = [
   {
-    name: "Mrs. Sarah ",
+    name: "Mr. Onesmus ",
     role: "Parent - Grade 5",
     text: "Timiza Preparatory School has been a blessing to our family. The teachers are dedicated, and the curriculum is well-balanced. My daughter has grown tremendously in confidence and academic ability since joining this school.",
     rating: 5,
