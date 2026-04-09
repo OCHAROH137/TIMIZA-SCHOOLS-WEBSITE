@@ -37,10 +37,10 @@ const admissionsSections = {
     grades: "Grades 4, 5, 6",
     description: "At upper primary level, learners deepen their understanding across all learning areas. We emphasize critical thinking, problem-solving, and independent learning skills while preparing them for junior secondary education.",
     features: [
-      "Advanced CBC learning areas",
-      "Project-based learning activities",
-      "Science and technology integration",
-      "Creative arts and sports programs",
+      "Advanced CBC learning areas.",
+      "Project-based learning activities.",
+      "Science and technology integration.",
+      "Creative arts and sports programs.",
       "Leadership development opportunities.",
       "Preparation for junior secondary transition."
     ]
