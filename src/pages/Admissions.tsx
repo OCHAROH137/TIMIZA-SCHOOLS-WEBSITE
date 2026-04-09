@@ -24,12 +24,12 @@ const admissionsSections = {
     grades: "Grades 1, 2, 3",
     description: "Our lower primary program builds on early childhood foundations with a competency-based curriculum. We focus on developing fundamental literacy, numeracy, and life skills while nurturing curiosity and creativity.",
     features: [
-      "Competency-Based Curriculum (CBC)",
-      "Interactive and hands-on learning",
-      "Strong foundation in literacy and numeracy",
-      "Introduction to basic sciences",
-      "Physical education and sports",
-      "Character and values education"
+      "Competency-Based Curriculum (CBC).",
+      "Interactive and hands-on learning.",
+      "Strong foundation in literacy and numeracy.",
+      "Introduction to basic sciences.",
+      "Physical education and sports.",
+      "Character and values education."
     ]
   },
   "upper-primary": {
