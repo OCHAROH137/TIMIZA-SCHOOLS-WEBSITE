@@ -43,7 +43,6 @@ import gals from "@/assets/gals.jpg";
 import boys from "@/assets/boys.jpg";
 import pp2 from "@/assets/pp2.jpg";
 import boyschampions from "@/assets/boyschampions.jpg";
-import girlschampions from "@/assets/girlsfootball.jpg";
 const clubs = [
   {
     name: "Music Club",
@@ -71,7 +70,7 @@ const clubs = [
     fullDescription: "The Football Club develops athletic skills, teamwork, and competitive spirit. Students receive professional coaching and participate in inter-school leagues and tournaments.",
     activities: ["Training Sessions", "Inter-school Matches", "Fitness Training", "Tournament Participation"],
     achievements: [  "Inter-school friendlies", "Outstanding Goal Scorers"],
-    gallery: [footballClub, schoolteam1, girlschampions, boyschampions]
+    gallery: [footballClub, schoolteam1, boyschampions]
   },
 
 

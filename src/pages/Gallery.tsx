@@ -25,7 +25,6 @@ import gals from "@/assets/gals.jpg";
 import boys from "@/assets/boys.jpg";
 import pp2 from "@/assets/pp2.jpg";
 import contactus from "@/assets/gallery/contactus.jpg"
-// import girlschampions from "@/assets/gallery/girlschampions.jpg"
 import grad1 from "@/assets/gallery/grad1.jpg"
 import pic1 from "@/assets/gallery/pic1.jpg"
 import pic2 from "@/assets/gallery/pic2.jpg"
@@ -117,7 +116,6 @@ const galleryItems = [
   { id: 26, image: grad1, title: "PP2 Graduation Ceremony", category: "Events" },
   { id: 27, image: pic2, title: "Basketball Training", category: "Sports" },
   { id: 28, image: pic40, title: "Football", category: "Sports" },
-  // { id: 29, image: girlschampions, title: "Girls Football Team", category: "Sports" },
   { id: 31, image: pic38, title: "Athletics", category: "Sports" },
   { id: 32, image: pic3, title: "Best Moments", category: "School Life" },
   { id: 33, image: pic7, title: "Best Moments", category: "School Life" },
