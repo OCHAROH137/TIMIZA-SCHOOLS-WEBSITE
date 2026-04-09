@@ -42,7 +42,7 @@ const admissionsSections = {
       "Science and technology integration.",
       "Creative arts and sports programs.",
       "Leadership development opportunities.",
-      "Preparation for junior secondary transition."
+      "Preparation for junior secondary transition"
     ]
   },
   "junior-secondary": {
