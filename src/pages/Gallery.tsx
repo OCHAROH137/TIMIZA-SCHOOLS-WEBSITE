@@ -24,11 +24,11 @@ import footpitch from "@/assets/footpitch.jpg";
 import gals from "@/assets/gals.jpg";
 import boys from "@/assets/boys.jpg";
 import pp2 from "@/assets/pp2.jpg";
-import contactus from "@/assets/gallery/contactus.jpg"
+import contactus from "@/assets/contactus.jpg"
 import grad1 from "@/assets/grad1.jpg"
 import pic1 from "@/assets/pic1.jpg"
 import pic2 from "@/assets/pic2.jpg"
-import pic3 from "@/assets/gallery/pic3.jpg"
+import pic3 from "@/assets/pic3.jpg"
 import pic4 from "@/assets/pic4.jpg"
 import pic5 from "@/assets/pic5.jpg"
 import pic6 from "@/assets/pic6.jpg"
