@@ -24,17 +24,65 @@ import footpitch from "@/assets/footpitch.jpg";
 import gals from "@/assets/gals.jpg";
 import boys from "@/assets/boys.jpg";
 import pp2 from "@/assets/pp2.jpg";
+import contactus from "@/assets/gallery/contactus.jpg"
+import girlschampions from "@/assets/gallery/girlschampions.jpg"
+import grad1 from "@/assets/gallery/grad1.jpg"
+import pic1 from "@/assets/gallery/pic1.jpg"
+import pic2 from "@/assets/gallery/pic2.jpg"
+import pic3 from "@/assets/gallery/pic3.jpg"
+import pic4 from "@/assets/gallery/pic4.jpg"
+import pic5 from "@/assets/gallery/pic5.jpg"
+import pic6 from "@/assets/gallery/pic6.jpg"
+import pic7 from "@/assets/gallery/pic7.jpg"
+import pic8 from "@/assets/gallery/pic8.jpg"
+import pic9 from "@/assets/gallery/pic9.jpg"
+import pic10 from "@/assets/gallery/pic10.jpg"
+import pic11 from "@/assets/gallery/pic11.jpg"
+import pic12 from "@/assets/gallery/pic12.jpg"
+import pic13 from "@/assets/gallery/pic13.jpg"
+import pic14 from "@/assets/gallery/pic14.jpg"
+import pic15 from "@/assets/gallery/pic15.jpg"
+import pic16 from "@/assets/gallery/pic16.jpg"
+import pic17 from "@/assets/gallery/pic17.jpg"
+import pic18 from "@/assets/gallery/pic18.jpg"
+import pic19 from "@/assets/gallery/pic19.jpg"
+import pic20 from "@/assets/gallery/pic20.jpg"
+import pic21 from "@/assets/gallery/pic21.jpg"
+import pic22 from "@/assets/gallery/pic22.jpg"
+import pic23 from "@/assets/gallery/pic23.jpg"
+import pic24 from "@/assets/gallery/pic24.jpg"
+import pic25 from "@/assets/gallery/pic25.jpg"
+import pic26 from "@/assets/gallery/pic26.jpg"
+import pic27 from "@/assets/gallery/pic27.jpg"
+import pic28 from "@/assets/gallery/pic28.jpg"
+import pic29 from "@/assets/gallery/pic29.jpg"
+import pic30 from "@/assets/gallery/pic30.jpg"
+import pic31 from "@/assets/gallery/pic31.jpg"
+import pic32 from "@/assets/gallery/pic32.jpg"
+import pic33 from "@/assets/gallery/pic33.jpg"
+import pic34 from "@/assets/gallery/pic34.jpg"
+import pic35 from "@/assets/gallery/pic35.jpg"
+import pic36 from "@/assets/gallery/pic36.jpg"
+import pic37 from "@/assets/gallery/pic37.jpg"
+import pic38 from "@/assets/gallery/pic38.jpg"
+import pic39 from "@/assets/gallery/pic38.jpg"
+import pic40 from "@/assets/gallery/pic40.jpg"
+import pic41 from "@/assets/gallery/pic41.jpg"
+import pic42 from "@/assets/gallery/pic42.jpg"
+
 const categories = [
   "All",
   "Academics",
   "Sports",
   "Clubs",
   "Events",
-  "Facilities"
+  "Facilities",
+  "School Life"
 ];
 
 const galleryItems = [
   { id: 1, image: computerLab, title: "ICT Laboratory", category: "Facilities" },
+  { id: 30, image: pic41, title: "Boys Football Team", category: "Sports" },
   { id: 2, image: primary12, title: "Outdoor Activities", category: "Academics" },
   { id: 3, image: school11, title: "Outdoor Activities", category: "Academics" },
   { id: 4, image: scienceLab, title: "Agriculture Practical", category: "Academics" },
@@ -47,10 +95,14 @@ const galleryItems = [
   { id: 11, image: music10, title: "Drama festivals", category: "Events" },
   { id: 12, image: music11, title: "Music festivals", category: "Events" },
   { id: 13, image: music12, title: "Music festivals", category: "Events" },
+  { id: 44, image: pic42, title: "Best Moments", category: "School Life" },
+  { id: 45, image: pic33, title: "Best Moments", category: "School Life" },
   { id: 14, image: music13, title: "Music festivals", category: "Events" },
   { id: 15, image: music14, title: "Music festivals", category: "Events" },
   { id: 16, image: music15, title: "Music festivals", category: "Events" },
   { id: 17, image: music16, title: "Music festivals", category: "Events" },
+  { id: 35, image: pic10, title: "Best Moments", category: "School Life" },
+  { id: 36, image: pic12, title: "Best Moments", category: "School Life" },
   { id: 18, image: music17, title: "Music festivals", category: "Events" },
   { id: 19, image: ruma10, title: "Academic Trips", category: "Academics" },
   { id: 20, image: drama10, title: "Drama festivals", category: "Events" },
@@ -58,15 +110,34 @@ const galleryItems = [
   { id: 22, image: gals, title: "Break Sessions", category: "Events" },
   { id: 23, image: boys, title: "Break Sessions", category: "Events" },
   { id: 24, image: pp2, title: "Break Sessions", category: "Events" },
- 
+  { id: 25, image: pic1, title: "PP2 Graduation Ceremony", category: "Events" },
+  { id: 38, image: pic13, title: "Best Moments", category: "School Life" },
+  { id: 39, image: pic14, title: "Best Moments", category: "School Life" },
+  { id: 40, image: pic23, title: "Best Moments", category: "School Life" },
+  { id: 26, image: grad1, title: "PP2 Graduation Ceremony", category: "Events" },
+  { id: 27, image: pic2, title: "Basketball Training", category: "Sports" },
+  { id: 28, image: pic40, title: "Football", category: "Sports" },
+  { id: 29, image: girlschampions, title: "Girls Football Team", category: "Sports" },
+  { id: 31, image: pic38, title: "Athletics", category: "Sports" },
+  { id: 32, image: pic3, title: "Best Moments", category: "School Life" },
+  { id: 33, image: pic7, title: "Best Moments", category: "School Life" },
+  { id: 34, image: pic8, title: "Best Moments", category: "School Life" },
+  { id: 37, image: pic11, title: "Best Moments", category: "School Life" },
+  { id: 41, image: pic35, title: "Best Moments", category: "School Life" },
+  { id: 42, image: pic36, title: "Best Moments", category: "School Life" },
+  { id: 43, image: pic37, title: "Best Moments", category: "School Life" },
+  { id: 46, image: contactus, title: "Best Moments", category: "School Life" },
+  { id: 47, image: pic15, title: "Best Moments", category: "School Life" },
+  { id: 48, image: pic16, title: "Best Moments", category: "School Life" },
+
 ];
 
 const Gallery = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
 
-  const filteredItems = selectedCategory === "All" 
-    ? galleryItems 
+  const filteredItems = selectedCategory === "All"
+    ? galleryItems
     : galleryItems.filter(item => item.category === selectedCategory);
 
   const selectedItem = galleryItems.find(item => item.id === selectedImage);
@@ -75,7 +146,7 @@ const Gallery = () => {
     <div className="min-h-screen">
       {/* Hero Section */}
       <div className="relative h-[300px] sm:h-[400px] md:h-[500px] flex items-center justify-center">
-        <div 
+        <div
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: `url(${galleryHero})` }}
         >
@@ -111,15 +182,15 @@ const Gallery = () => {
         {/* Gallery Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {filteredItems.map((item) => (
-            <Card 
+            <Card
               key={item.id}
               className="border-none shadow-card hover:shadow-elevated transition-all duration-300 overflow-hidden cursor-pointer group"
               onClick={() => setSelectedImage(item.id)}
             >
               <CardContent className="p-0">
                 <div className="aspect-square overflow-hidden">
-                  <img 
-                    src={item.image} 
+                  <img
+                    src={item.image}
                     alt={item.title}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
@@ -135,7 +206,7 @@ const Gallery = () => {
 
         {/* Lightbox Modal */}
         {selectedItem && (
-          <div 
+          <div
             className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-4"
             onClick={() => setSelectedImage(null)}
           >
@@ -147,8 +218,8 @@ const Gallery = () => {
               >
                 ×
               </button>
-              <img 
-                src={selectedItem.image} 
+              <img
+                src={selectedItem.image}
                 alt={selectedItem.title}
                 className="w-full h-auto rounded-2xl"
               />

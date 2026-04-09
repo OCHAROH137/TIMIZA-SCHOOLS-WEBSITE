@@ -17,7 +17,7 @@ const admissionsSections = {
       "Introduction to basic literacy and numeracy",
       "Music, art, and movement activities"
     ]
-    
+
   },
   "lower-primary": {
     title: "Lower Primary",
@@ -55,10 +55,10 @@ const admissionsSections = {
       "Advanced ICT and digital literacy",
       "Specialized science and mathematics programs",
       "Extensive co-curricular activities",
-      "Preparation for senior secondary pathways"
+      "Preparation for senior school pathways"
     ]
 
-    
+
   }
 };
 
@@ -74,7 +74,7 @@ const Admissions = () => {
     <div className="min-h-screen">
       {/* Hero Section with Background */}
       <div className="relative h-[400px] flex items-center justify-center">
-        <div 
+        <div
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: `url(${admissionsHero})` }}
         />
@@ -87,7 +87,7 @@ const Admissions = () => {
           <p className="text-xl text-white/90 mb-2">{section.grades}</p>
         </div>
       </div>
-      
+
       <div className="container mx-auto px-4 py-16">
 
         {/* Navigation Tabs */}
@@ -139,12 +139,11 @@ const Admissions = () => {
                   Admission Requirements
                 </h3>
                 <ul className="space-y-2 text-muted-foreground">
-                  <li>• Duly filled application form</li>
                   <li>• Birth certificate (original and copy)</li>
                   <li>• Previous school report forms (if applicable)</li>
                   <li>• Two passport-size photos</li>
                   <li>• Parent/Guardian ID copy</li>
-                  <li>• Immunization certificate</li>
+                  <li>• Assessment, upi or nemis number</li>
                 </ul>
               </CardContent>
             </Card>
@@ -156,45 +155,45 @@ const Admissions = () => {
                   Download Fee Structures
                 </h3>
                 <div className="space-y-3">
-                  <Button 
-                    variant="outline" 
+                  <Button
+                    variant="outline"
                     className="w-full justify-start bg-white/10 border-white text-white hover:bg-white hover:text-primary text-sm sm:text-base"
                     asChild
                   >
-                    <a href="/preschool.pdf" download="TIMIZA PRE SCHOOL FEE STRUCTURE">
+                    <a href="/ps.pdf" download="TIMIZA PRE SCHOOL FEE STRUCTURE">
                       <Download className="w-4 h-4 mr-2" />
                       Pre - School
                     </a>
                   </Button>
 
-                  <Button 
-                    variant="outline" 
+                  <Button
+                    variant="outline"
                     className="w-full justify-start bg-white/10 border-white text-white hover:bg-white hover:text-primary text-sm sm:text-base"
                     asChild
                   >
-                    <a href="/lowerprimary.pdf" download="TIMIZA LOWER PRIMARY FEE STRUCTURE">
+                    <a href="/ls.pdf" download="TIMIZA LOWER PRIMARY FEE STRUCTURE">
                       <Download className="w-4 h-4 mr-2" />
                       Lower Primary
                     </a>
                   </Button>
 
-                  <Button 
-                    variant="outline" 
+                  <Button
+                    variant="outline"
                     className="w-full justify-start bg-white/10 border-white text-white hover:bg-white hover:text-primary text-sm sm:text-base"
                     asChild
                   >
-                    <a href="/upperprimary.pdf" download="TIMIZA UPPER PRIMARY FEE STRUCTURE">
+                    <a href="/up.pdf" download="TIMIZA UPPER PRIMARY FEE STRUCTURE">
                       <Download className="w-4 h-4 mr-2" />
                       Upper Primary
                     </a>
                   </Button>
 
-                  <Button 
-                    variant="outline" 
+                  <Button
+                    variant="outline"
                     className="w-full justify-start bg-white/10 border-white text-white hover:bg-white hover:text-primary text-sm sm:text-base"
                     asChild
                   >
-                    <a href="/juniorschool.pdf" download="TIMIZA JUNIOR SCHOOL FEE STRUCTURE">
+                    <a href="/js.pdf" download="TIMIZA JUNIOR SCHOOL FEE STRUCTURE">
                       <Download className="w-4 h-4 mr-2" />
                       Junior School
                     </a>
