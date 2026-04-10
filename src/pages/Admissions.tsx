@@ -171,7 +171,7 @@ const Admissions = () => {
                     className="w-full justify-start bg-white/10 border-white text-white hover:bg-white hover:text-primary text-sm sm:text-base"
                     asChild
                   >
-                    <a href="/ls.pdf" download="TIMIZA LOWER PRIMARY FEE STRUCTURE">
+                    <a href="/lp.pdf" download="TIMIZA LOWER PRIMARY FEE STRUCTURE">
                       <Download className="w-4 h-4 mr-2" />
                       Lower Primary
                     </a>
