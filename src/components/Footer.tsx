@@ -95,6 +95,7 @@ const Footer = () => {
             <h4 className="font-heading font-semibold text-lg mb-4">Connect With Us</h4>
             <div className="space-y-3 text-sm opacity-80 mb-4">
               <p>📞 Phone: +254 726 882 397 <br /></p>
+              <p>📞 Phone: +254 729 658 659 <br /></p>
               <p>📧 Email: info@timizaschool.ac.ke</p>
               <p>📍 Location: Kisii, Kenya <br />Along Kisii - Keroka highway - Nyosia 1</p>
             </div>
@@ -117,7 +118,7 @@ const Footer = () => {
               >
                 <Instagram className="w-5 h-5" />
               </a>
-             
+
               <a
                 href="https://www.tiktok.com/@timizaschool"
                 target="_blank"
@@ -154,7 +155,7 @@ const Footer = () => {
           <p className="text-sm opacity-70">
             © {new Date().getFullYear()} TIMIZA SCHOOL. All Rights Reserved.
           </p>
-                </div>
+        </div>
       </div>
     </footer>
   );

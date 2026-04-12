@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Mail } from "lucide-react";
+import { Contact, Mail,  } from "lucide-react";
 import directoromosa from "@/assets/omosa.jpg";
 import directorfanice from "@/assets/staff/fanice.jpg";
 import headTeacher from "@/assets/staff/okwach.jpg";
@@ -20,14 +20,14 @@ const managementData = [
         name: "Dr. Omosa Ombuna",
         position: "General Director",
         bio: "A seasoned visionary in educational leadership, Dr. Ombuna brings a wealth of knowledge in fostering academic brilliance and driving institutional excellence",
-        email: "director@timizaschool.ac.ke",
+        email: "omosaho@yahoo.com",
         image: directoromosa
       },
       {
         name: "Dr. Fanice Mose",
         position: "General Director",
         bio: "Dr. Fanice orchestrates the vital pulse of the school, ensuring a seamless and elevated experience across our entire learning community.",
-        email: "operations@timizaschool.ac.ke",
+        email: "mosefanice5@gmail.com",
         image: directorfanice
       }
     ]
