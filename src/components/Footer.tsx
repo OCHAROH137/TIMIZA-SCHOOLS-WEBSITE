@@ -14,6 +14,7 @@ const Footer = () => {
               <img src="/logo.png" alt="Timiza Logo" className="h-12 w-12" />
               <div>
                 <h3 className="font-heading font-bold text-lg">TIMIZA SCHOOL</h3>
+                <p>Discover Your Best !</p>
               </div>
             </div>
             <p className="text-sm opacity-80 leading-relaxed">
