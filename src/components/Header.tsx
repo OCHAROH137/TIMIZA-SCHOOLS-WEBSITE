@@ -148,7 +148,7 @@ const Header = () => {
             </Link>
 
             <Button asChild className="ml-2 xl:ml-4 text-xs xl:text-sm px-3 xl:px-4 h-8 xl:h-10">
-              <Link to="/admissions/preschool">Apply Now</Link>
+              <Link to="https://app.timizaschools.sc.ke/">Portal</Link>
             </Button>
           </nav>
 
